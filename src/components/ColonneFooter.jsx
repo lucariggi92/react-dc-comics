@@ -4,15 +4,14 @@ function ColonneFooter(){
                 <div>
                     <h4>DC Comics</h4>
                         <ul>
-                           <a href="">
-                            <li>Characters</li>
-                            <li>Comics</li>
-                            <li>Movies</li>
-                            <li>Tv</li>
-                            <li>GAmes</li>
-                            <li>Video</li>
-                            <li>News</li>
-                           </a>
+                           <a href=""><li>Characters</li>  </a>
+                           <a href=""><li>Characters</li>  </a>
+                             <a href=""><li>Characters</li>  </a>
+                            <a href=""><li>Characters</li>  </a>
+                           <a href=""><li>Characters</li>  </a>
+                             <a href=""><li>Characters</li>  </a>
+                              <a href=""><li>Characters</li>  </a>
+                         
                         </ul>
                 </div>
 
@@ -21,8 +20,8 @@ function ColonneFooter(){
                      <h4>Shop</h4>
                         <ul>
                            <a href="">
-                            <li>Characters</li>
-                            <li>Comics</li>
+                      <a href=""><li>Characters</li>  </a>
+                              <a href=""><li>Characters</li>  </a>
                            </a>
                         </ul>
                 </div>
@@ -30,17 +29,17 @@ function ColonneFooter(){
                     <h4>DC</h4>
                         <ul>
                            <a href="">
-                            <li>Characters</li>
-                            <li>Comics</li>
-                            <li>Movies</li>
-                            <li>Tv</li>
-                            <li>GAmes</li>
-                            <li>Video</li>
-                            <li>News</li>
-                            <li>News</li>
-                            <li>News</li>
-                            <li>News</li>
-                            <li>News</li>
+                           <a href=""><li>Characters</li>  </a>
+                           <a href=""><li>Characters</li>  </a>
+                             <a href=""><li>Characters</li>  </a>
+                            <a href=""><li>Characters</li>  </a>
+                           <a href=""><li>Characters</li>  </a>
+                             <a href=""><li>Characters</li>  </a>
+                              <a href=""><li>Characters</li>  </a>
+                                <a href=""><li>Characters</li>  </a>
+                             <a href=""><li>Characters</li>  </a>
+                              <a href=""><li>Characters</li>  </a>
+                                       <a href=""><li>Characters</li>  </a>
                            </a>
                         </ul>
                 </div>
@@ -49,11 +48,12 @@ function ColonneFooter(){
                     <h4>Sites</h4>
                         <ul>
                            <a href="">
-                            <li>Characters</li>
-                            <li>Comics</li>
-                            <li>Movies</li>
-                            <li>Tv</li>
-                            <li>GAmes</li>
+                           <a href=""><li>Characters</li>  </a>
+                             <a href=""><li>Characters</li>  </a>
+                              <a href=""><li>Characters</li>  </a>
+                                <a href=""><li>Characters</li>  </a>
+                             <a href=""><li>Characters</li>  </a>
+                       
                            
                            </a>
                         </ul>
