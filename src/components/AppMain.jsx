@@ -1,10 +1,12 @@
 import ProductCard from "./ProductCard";
+import style from "./AppMain.module.css";
+
 
 function AppMain (){
     return(
   <main>
-        <div>---Content goes here---</div>
-        <section>
+        <h1 className={`${style["bg-black"]}` }>---Content goes here---</h1>
+        <section className={`${style["bg-blue"]} ${style.flex}` }>
           <ProductCard/>
         </section>
         

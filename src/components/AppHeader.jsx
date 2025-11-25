@@ -1,9 +1,11 @@
+import style from "../components/AppHeader.module.css";
+import LogoImg from "../assets/img/dc-logo.png"
 function AppHeader (){
     return(
-        <header>
-        <a href=""><div>Logo</div></a>
+        <header className ={`${style.flex} ${style["space-between"]} ${style["align-center"]}`}>
+        <a href=""><img src={LogoImg} alt="" /></a>
         <nav>
-          <ul>
+          <ul className={`${style.flex} ${style["g-20"]} `}>
             <li><a href="">Characters</a></li>
             <li><a href="">Comics</a></li>
             <li><a href="">Movies</a></li>
