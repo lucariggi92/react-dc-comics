@@ -10,6 +10,7 @@
 a{
   color: inherit;
   text-decoration: inherit;
+  height: 100%;
 }
 
 ul{
@@ -80,7 +81,20 @@ font-weight: bold;
 color: rgb(65, 63, 63);
 }
 
+.active{
+  color: rgb(22, 158, 221);
+  border-bottom: 2px solid rgb(22, 158, 221);
+}
+
 /* //img */
 .logo{
   width: 60%;
+}
+
+/* MAIN */
+.bg-main-top{
+background-image: url(./assets/img/jumbotron.jpg);
+  height: 35vh;
+  width: 100%;
+  background-size: cover;
 }
