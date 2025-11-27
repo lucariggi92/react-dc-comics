@@ -1,65 +1,80 @@
-function ColonneFooter(){
+
+
+export default function ColonneFooter(){
+
+   const Dc = [
+  "Terms Of Use",
+  "Privacy policy (New)",
+  "Ad Choices",
+  "Advertising",
+  "Jobs",
+  "Subscriptions",
+  "Talent Workshops",
+  "CPSC Certificates",
+  "Ratings",
+  "Shop Help",
+   "Contact Us"
+];
+
+   const Dciao = [
+  "Terms Of Use",
+  "Privacy policy (New)",
+  "Ad Choices",
+  "Advertising",
+  "Jobs",
+  
+];
+
+const Dciaoe = [
+  "Terms Of Use",
+  "Privacy policy (New)",
+  "Ad Choices",
+  "Advertising",
+  "Jobs",
+  "Terms Of Use",
+  "Privacy policy (New)",
+  "Ad Choices",
+  "Advertising",
+  "Jobs",
+  "Terms Of Use",
+  "Privacy policy (New)",
+  "Ad Choices",
+  "Advertising",
+  "Jobs",
+  
+];
+
     return(
-         <section>
-                <div>
-                    <h4>DC Comics</h4>
-                        <ul>
-                           <a href=""><li>Characters</li>  </a>
-                           <a href=""><li>Characters</li>  </a>
-                             <a href=""><li>Characters</li>  </a>
-                            <a href=""><li>Characters</li>  </a>
-                           <a href=""><li>Characters</li>  </a>
-                             <a href=""><li>Characters</li>  </a>
-                              <a href=""><li>Characters</li>  </a>
-                         
-                        </ul>
-                </div>
+      <>
+      <div className="flex">
+      <ul className="p-bottom">
+        <h3>ciao</h3>
+      {Dc.map((link, index)=>
+      
+     <li key ={index}> <a href="">{link}</a></li>  )}
+     </ul>
+      
+         <ul className="p-bottom">
+           <h3 p-20>ciao</h3>
+      {Dciao.map((link, index)=>
+      
+     <li key ={index}> <a href="">{link}</a></li>  )}
+     </ul> 
 
-
-                <div>
-                     <h4>Shop</h4>
-                        <ul>
-                           <a href="">
-                      <a href=""><li>Characters</li>  </a>
-                              <a href=""><li>Characters</li>  </a>
-                           </a>
-                        </ul>
-                </div>
-                 <div>
-                    <h4>DC</h4>
-                        <ul>
-                           <a href="">
-                           <a href=""><li>Characters</li>  </a>
-                           <a href=""><li>Characters</li>  </a>
-                             <a href=""><li>Characters</li>  </a>
-                            <a href=""><li>Characters</li>  </a>
-                           <a href=""><li>Characters</li>  </a>
-                             <a href=""><li>Characters</li>  </a>
-                              <a href=""><li>Characters</li>  </a>
-                                <a href=""><li>Characters</li>  </a>
-                             <a href=""><li>Characters</li>  </a>
-                              <a href=""><li>Characters</li>  </a>
-                                       <a href=""><li>Characters</li>  </a>
-                           </a>
-                        </ul>
-                </div>
-
-                  <div>
-                    <h4>Sites</h4>
-                        <ul>
-                           <a href="">
-                           <a href=""><li>Characters</li>  </a>
-                             <a href=""><li>Characters</li>  </a>
-                              <a href=""><li>Characters</li>  </a>
-                                <a href=""><li>Characters</li>  </a>
-                             <a href=""><li>Characters</li>  </a>
-                       
-                           
-                           </a>
-                        </ul>
-                </div>
+         <ul className="p-bottom">
+           <h3 p-20>ciao</h3>
+      {Dciaoe.map((link, index)=>
+      
+     <li key ={index}> <a href="">{link}</a></li>  )}
+     </ul> 
+     </div>
+         </>     
+      )  
+      
+   
+    
+      
+        
               
-            </section>
-    )
+       
 }
-export default ColonneFooter;

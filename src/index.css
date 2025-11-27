@@ -140,10 +140,18 @@ width: 50px;
   background-image: url(./assets/img/footer-bg.jpg);
   background-size: cover;
   position: relative;
+
 }
 
 .bg-logo{
   position:absolute;
   right: 100px;
   top: -100px;
+}
+
+.text-white{
+  color: white;
+}
+.p-bottom{
+  padding-bottom: 20px;
 }
