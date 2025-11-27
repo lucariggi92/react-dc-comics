@@ -5,34 +5,27 @@ import SubImg from "../assets/img/buy-comics-subscriptions.png"
 import VisaImg from "../assets/img/buy-dc-power-visa.svg"
 
 
-function ProductCard (){
-    return(
-    <>
-        <div className="flex">
-            <img src={BuyDcImg} alt="" />
-            <h3>DIGITAL COMICS</h3>
-        
-        </div>
-   <div className="flex">
-            <img src={MerchandiseImg}alt="" />
-            <h3>DC MERCHANDISE</h3>
-        
-        </div>
-          <div className="flex">
-            <img src={ShopImg}alt="" />
-            <h3>SUBSCRIPTION</h3>
-        
-        </div>
-             <div className="flex">
-            <img src={SubImg} alt="" />
-            <h3>COMIC SHOP LOCATOR</h3>
-        
-        </div>
-        <div className="flex">
-            <img src={VisaImg} alt="" />
-            <h3>DC POWER VISA</h3>
-        
-        </div>
+function ProductCard() {
+    return (
+        <>
+               <a href="" className="flex align-center"><img src={BuyDcImg} alt="" className="imgProducts"/>
+                <h3 className="p-20">DIGITAL COMICS</h3></a> 
+
+               
+                <a href="" className="flex align-center"><img src={MerchandiseImg} alt="" className="imgProducts"/>
+                <h3 className="p-20">DC MERCHANDISE</h3></a>
+
+                   
+                <a href="" className="flex align-center"><img src={ShopImg} alt="" className="imgProducts"/>
+                 <h3 className="p-20">SUBSCRIPTION</h3></a>
+
+            
+                <a href="" className="flex align-center"><img src={SubImg} alt="" className="imgProducts"/>
+                 <h3 className="p-20">COMIC SHOP LOCATOR</h3></a>
+
+                    
+                <a href="" className="flex align-center"><img src={VisaImg} alt="" className="imgProducts"/>
+                   <h3 className="p-20">DC POWER VISA</h3></a>
         </>
     )
 }

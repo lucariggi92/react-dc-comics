@@ -33,6 +33,9 @@ ul {
   justify-content: space-between;
 }
 
+.justify-center {
+  justify-content: center;
+}
 .align-center {
   align-items: center;
 }
@@ -49,6 +52,9 @@ ul {
   gap: 10px;
 }
 
+.p-30 {
+  padding: 30px 30px 30px 30px;
+}
 
 h1 {
   color: white;
@@ -57,6 +63,7 @@ h1 {
 
 .bg-blue {
   background-color: rgb(22, 158, 221);
+
 }
 
 
@@ -112,6 +119,8 @@ h1 {
 width: 100%;
 height: 220px;
 object-fit: cover;
+max-width: 50vw;
+max-height: 50vh;
 
 }
 
@@ -119,4 +128,22 @@ h3{
   color: aliceblue;
   text-transform: uppercase;
   font-size: 0.6rem;
+}
+
+/* //products */
+.imgProducts{
+width: 50px;
+}
+
+/* //footer */
+.bg-footer{
+  background-image: url(./assets/img/footer-bg.jpg);
+  background-size: cover;
+  position: relative;
+}
+
+.bg-logo{
+  position:absolute;
+  right: 100px;
+  top: -100px;
 }

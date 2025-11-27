@@ -5,7 +5,8 @@ import SocialLinks from "./SocialLinks";
 
 function AppFooter() {
     return (
-        <footer>
+        <footer className="bg-footer">
+            <img src="../src/assets/img/dc-logo-bg.png" alt="" className="bg-logo" />
              <ColonneFooter/>
             <SignButton />
             <SocialLinks />
