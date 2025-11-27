@@ -1,5 +1,5 @@
 
-import LinkNav from "../../LinkNav";
+import LinkNav from "../components/LinkNav";
 import LogoImg from "../assets/img/dc-logo.png"
 
 function AppHeader() {
