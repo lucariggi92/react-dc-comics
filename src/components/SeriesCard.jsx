@@ -5,6 +5,7 @@ export default function SeriesCards(props) {
 
             <a href=""><img src={image} alt={title} className="imgSeries" />
                 <h3>{title}</h3></a>
+                
         </div>
 
 
